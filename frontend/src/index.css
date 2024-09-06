@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #F0F0F0;
+}
+
+
+.form-group input::placeholder {
+  color: #747474;
+  display: flex;
+  justify-content: center;
+}
+
+/* Input field styling */
+.form-group input[type="text"],.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 80%;
+  padding: 5px 5px 5px 20px;
+  border: transparent;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-bottom: 25px;
+
+}
+
+
+/* Submit button styling */
+input[type="submit"], .user-update-bt {
+  width: 50%;
+  padding: 5px;
+  background-color: #F8C48B;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+input[type="submit"]:hover, .user-update-bt:hover{
+  background-color: #fd992f;
+  transition:ease-in-out 0.3s;
+}
+
+/*----------------------------------------*/
+.preferences {
+  padding-left: 30px;
+  border: transparent;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-bottom: 50px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  min-height: 40px; /* Set a minimum height */
+  background-color: white;
+  display: flex; /* Make the container a flex container */
+  align-items: center; /* Center vertically */
+  text-align: start;
+}
+.preferencesUser{
+  width: 80%;
+  padding-left: 30px;
+  border: transparent;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  min-height: 40px; /* Set a minimum height */
+  background-color: white;
+  display: flex; /* Make the container a flex container */
+  align-items: center; /* Center vertically */
+  text-align: start;
+
+}
+
+
+.dogs{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); 
+}
+
+
+.shadow-custom {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
