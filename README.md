@@ -43,5 +43,5 @@ In the frontend:
   -npm run dev
 
 ## App screenshots
-![Demo](demo.gif)
+![Demo](Demo.gif)
 
